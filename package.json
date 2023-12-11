@@ -1,0 +1,18 @@
+{
+  "name": "checkers_test_assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress open --e2e '/cypress/e2e/*.js' --browser chrome",
+    "runE2E": "npx cypress run --spec 'cypress/e2e/*.js'"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.11.0",
+    "cypress-mochawesome-reporter": "^3.7.0"
+  }
+}

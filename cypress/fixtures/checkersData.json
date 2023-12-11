@@ -1,0 +1,23 @@
+{
+  "urls": {
+    "base": "https://www.gamesforthebrain.com/game/checkers/"
+  },
+  "gameData": {
+    "playerColors": {
+      "orange": "you1.gif"
+    },
+    "pageTitleText": "Checkers",
+    "expectedStatusCode": 200,
+    "makeAMoveText": "Make a move.",
+    "selectOrangePieceText": "Select an orange piece to move",
+    "restartButtonText": "Restart",
+    "initialOrangePiecesPositions": ["space02", "space22", "space42", "space62"],
+    "moves": [
+      { "from": "space62", "to": "space73" },
+      { "from": "space22", "to": "space13" },
+      { "from": "space51", "to": "space62" },
+      { "from": "space60", "to": "space51" },
+      { "from": "space11", "to": "space33" }
+    ]
+  }
+}
